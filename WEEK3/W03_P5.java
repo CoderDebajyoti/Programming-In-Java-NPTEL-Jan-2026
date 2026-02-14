@@ -6,7 +6,7 @@ public class W03_P5{
 //Use while or for loop to find the factors of a number.
 
 
-for (int i = 1; i <= 18; i++) {
+for (int i = 1; i <= num; i++) {
 
             // if number is divided by i
             // i is the factor
