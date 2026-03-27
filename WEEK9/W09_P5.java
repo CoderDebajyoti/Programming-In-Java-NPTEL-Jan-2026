@@ -1,0 +1,35 @@
+import java.util.Scanner;
+
+public class W09_P5{
+            
+    public static void main(String[] args) {
+
+        Scanner sc = new Scanner(System.in);
+        double x1 = sc.nextDouble();
+        double y1 = sc.nextDouble();
+        double x2 = sc.nextDouble();
+        double y2 = sc.nextDouble();
+        Point p1 = new Point(x1, y1);
+        Point p2 = new Point(x2, y2);
+        
+        System.out.print(p1.distance(p2));
+    }
+
+}
+//Complete the code segment to define a class Point with parameter x,y and method distance()for calculating distance between two points.
+// Note: Pass objectsof type class Point as argument in distance() method.
+
+
+class Point{
+    private double x;
+    private double y;
+    public Point(double x, double y){
+        this.x = x;
+        this.y = y;
+    }
+    public double distance(Point p2){
+        double dist;
+        dist = Math.sqrt((p2.x - this.x)*(p2.x - this.x) + (p2.y - this.y)*(p2.y - this.y));
+        return dist;
+    }
+}
