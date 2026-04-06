@@ -3,17 +3,13 @@ import java.util.Scanner;
 class SquareThread extends Thread {
     private int begin;
     private int end;
-
 public SquareThread(int begin,int end) {
-    this.begin = begin;
+        this.begin = begin;
         this.end = end;
     }
-// HINT: JUST ONE keyword should be added below in the _____ and the program should run correctly
-   synchronized public void run() {
-        // print the square of each number from begin to end
-        // if begin is greater than end, 
-        // print the square of each number in reverse order from end to begin
-if (begin > end) {
+
+    synchronized public void run() {
+        if (begin > end) {
             for (int i = begin; i >= end; i--) {
                 System.out.println(i * i);
             }
@@ -23,9 +19,7 @@ if (begin > end) {
                 System.out.println(i * i);
             }
         }
-
-}
-
+    }
 }
 
 public class W09_P3 {
