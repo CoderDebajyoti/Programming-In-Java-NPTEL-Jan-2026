@@ -1,4 +1,4 @@
-# Programming in Java - NPTEL (January 2026)
+oo# Programming in Java - NPTEL (January 2026)
 
 A comprehensive course on Java programming covering fundamental concepts to advanced topics in object-oriented programming.
 
@@ -66,6 +66,8 @@ By completing this course, you will:
 - Implement networking solutions in Java
 - Connect Java applications to databases
 
+---
+Exam date 📅 24/04/2026
 ---
 
 *This is a comprehensive programming course designed to build strong Java fundamentals.*
